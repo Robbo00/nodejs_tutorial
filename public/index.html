@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>
+      Poke-Tracker 
+        </h1>
+    </div>
+    <div class="nav">
+        <button onclick="pFav()">Favorites</button>
+        <div id="auto" class="auto">
+                    <input onblur="check()" id="blue" onkeydown="checkEnt(event)" oninput="ent(event, this.id)" type="search">
+                    <button onclick="back()">Poke-Dex</button>
+        </div>
+        <button onclick="cFav()">Clear Favorites</button>
+    </div>
+    
+    <div class="out" id="outp">
+    </div>
+</body>
+    <script src="script.js">
+
+    </script>
+    <script>
+        function check(){
+            setTimeout(blurry, 100)
+            
+        }
+    </script>
+</html>
